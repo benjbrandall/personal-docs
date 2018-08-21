@@ -1,0 +1,6 @@
+# Useful Vim
+
+/AlterFont		search for AlterFont
+n			next search result
+N			previous search result
+:Explore		wqshow files in dir

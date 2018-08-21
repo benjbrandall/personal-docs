@@ -1,0 +1,17 @@
+# Useful Linux
+
+Move all files from subfolders		find . -mindepth 2 -type f -print -exec mv {} . \;
+
+Display active ruby processes		ps -aux | grep ruby
+
+Get free space on main disk		df -h | grep root
+
+find folder by name (from root)		find / -type d -name 'foldername'
+
+find folder by name (from current dir)	find . -type d -name 'foldername'
+
+fixed NO_PUBKEY				sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
+
+List dir with human-readble sizes    	ls -sh
+
+Look busy          			cat /dev/urandom | hexdump -C | grep "ca fe"

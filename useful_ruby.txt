@@ -1,0 +1,3 @@
+# Useful Ruby
+
+array.join		turns [1,2,3] into "123"
