@@ -10,7 +10,7 @@ find folder by name (from root)		find / -type d -name 'foldername'
 
 find folder by name (from current dir)	find . -type d -name 'foldername'
 
-fixed NO_PUBKEY				sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
+fixed NO_PUBKEY		sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
 
 List dir with human-readble sizes    	ls -sh
 
