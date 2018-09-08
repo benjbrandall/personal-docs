@@ -1,0 +1,3 @@
+# Useful Regex
+
+<pre>(.*?)</pre>	Everything between <pre></pre> tags
