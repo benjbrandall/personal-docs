@@ -17,3 +17,7 @@ List dir with human-readble sizes    	ls -sh
 Connect to wifi on i3                   wicd-gtk
 
 Look busy          			cat /dev/urandom | hexdump -C | grep "ca fe"
+
+Print system volume to stdout       pactl list sinks | grep '^[[:space:]]Volume:' | \
+    head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,'
+
